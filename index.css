@@ -2,3 +2,59 @@
   margin: 0;
   padding: 0;
 }
+
+
+.nav {
+  border: 2px solid red;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100px;
+  /* position: absolute; */
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.12));
+}
+
+.container-logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  font-family: serif;
+  background-color: black;
+}
+
+.logo img {
+  width: 113.4px;
+  height: 22.48px;
+}
+
+.motel {
+  height: 22.481664657592773px;
+  width: 113.4000015258789px;
+  border-radius: 0px;
+}
+
+.vision {
+  width: 112.47px;
+  height: 23.37px;
+}
+
+.container-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 680px;
+  height: 40px;
+}
+
+.btn-reservas {
+  border: none;
+  width: 96px;
+  height: 45px;
+}
