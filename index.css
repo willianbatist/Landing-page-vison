@@ -85,9 +85,40 @@
 .slider p {
   font-size: 22px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 0px;
   text-align: center;
 
   transform:scale(1.2,1);
+  color: #FFFFFF;
+}
+
+.slider h1 {
+  font-family: Playfair Display;
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 89px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.slider div {
+  display: flex;
+  width: 336px;
+  justify-content: space-between;
+}
+
+.slider .btn1 {
+  border: none;
+  width: 160px;
+  height: 41px;
+  background: #7A7266;
+  color: #FFFFFF;
+}
+
+.slider .btn2 {
+  border: none;
+  width: 160px;
+  height: 41px;
+  background: #5A493E;
   color: #FFFFFF;
 }
