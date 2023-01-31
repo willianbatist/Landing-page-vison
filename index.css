@@ -151,7 +151,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: white;
+  background-color:#FFFFFF;
   margin-top: -40px;
   margin-left: 25%;
 }
@@ -159,4 +159,13 @@
 .carousel {
   max-width: 752px;
   height: 440px !important;
+}
+
+.description-title h3 {
+  font-family: Playfair Display;
+  color: #2A2A2A;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
 }
