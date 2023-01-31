@@ -124,6 +124,37 @@
 }
 
 
+.suites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #7A7266;
+  border: 2px solid red;
+  height: 800px;
+}
+
+.carousel-item {
+  border: 2px solid blue;
+  height: 600px;
+}
+
+.d-block {
+  z-index: -1;
+}
+
+.description-suite {
+  position: absolute;
+  border: 2px solid orangered;
+  width: 342px;
+  height: 128px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  margin-top: -40px;
+}
+
 .carousel {
   width: 752px;
   height: 440px !important;
