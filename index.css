@@ -131,12 +131,31 @@
   justify-content: space-evenly;
   background-color: #7A7266;
   border: 2px solid red;
-  height: 800px;
+  height: 900px;
+  width: 100vw;
+}
+
+.container-suites {
+  margin-top: -250px;
+}
+
+
+.container-titulo {
+  margin-top: -200px;
+}
+
+.container-titulo h1 {
+  color: #FFFFFF;
+  font-family: 'Playfair Display';
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  text-align: center;
 }
 
 .carousel-item {
   border: 2px solid blue;
-  height: 600px;
+  height: 550px;
 }
 
 .d-block {
@@ -190,4 +209,8 @@
   font-weight: 500;
   line-height: 17px;
   color: #FFFFFF;
+}
+
+.link-all-suites {
+  position: absolute;
 }
