@@ -175,3 +175,19 @@
   line-height: 150%;
   color: #2A2A2A;
 }
+
+.description-suite button {
+  border: none;
+  width: 109px;
+  height: 41px;
+  background-color: #5A493E;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* text btn */
+  font-weight: 500;
+  line-height: 17px;
+  color: #FFFFFF;
+}
