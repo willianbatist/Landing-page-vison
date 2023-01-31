@@ -213,4 +213,13 @@
 
 .link-all-suites {
   position: absolute;
+  margin-top: 650px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 17px;
+/* identical to box height */
+
+  text-decoration-line: underline;
+  color: #FFFFFF;
+
 }
