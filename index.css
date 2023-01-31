@@ -245,3 +245,52 @@
   height: 62px;
   margin-top: 189px;
 }
+
+.container-motel-description {
+  background-color:#EEEEEE;
+  min-height: 704px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: normal;
+}
+
+.motel-description {
+  background: #FFFFFF;
+  max-width: 568px;
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 32px;
+  margin-right: 0px;
+}
+
+.container-motel-img {
+  max-width: 568px;
+  height: 512px;
+  margin-left: -10px;
+  margin-top: -12px;
+}
+
+.motel-description button {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 32px;
+
+  width: 109px;
+  height: 41px;
+}
+
+.motel-title h1 {
+  margin-left: 32px;
+}
+
+.container-text p {
+  margin-left: 32px;
+  margin-right: 32px;
+}
