@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.container-menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 
 .nav {
   display: flex;
@@ -257,6 +261,11 @@
   text-decoration-line: underline;
   color: #FFFFFF;
 
+}
+
+.link-all-suites:hover {
+  transition: 0.3s;
+  color: #5A493E;
 }
 
 .carousel-control-prev {
@@ -544,7 +553,7 @@
 }
 
 
-.container-text-contact p {
+.container-text-contact a {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
