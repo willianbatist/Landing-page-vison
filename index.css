@@ -315,3 +315,9 @@
   background: #6C6359;
   min-height: 704px;
 }
+
+.container-localization-img {
+  background: url("./img/mapa-vison.png");
+  width: 496px;
+  height: 290px;
+}
