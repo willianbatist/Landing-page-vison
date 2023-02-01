@@ -483,4 +483,8 @@
   width: 100vw;
   min-height: 290px;
   color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
