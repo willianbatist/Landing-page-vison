@@ -314,10 +314,96 @@
 .container-courtesies {
   background: #6C6359;
   min-height: 704px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .container-localization-img {
   background: url("./img/mapa-vison.png");
   width: 496px;
   height: 290px;
+}
+
+.containers-discription {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+
+.container-discription {
+  margin-top: 10px;
+  position: relative;
+  width: 368px;
+  height: 377px;
+  background-color: #FFFFFF;
+
+  text-align: center;
+
+  -webkit-box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.75);
+}
+
+.legends {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 8px;
+
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 150%;
+}
+
+.container-discription h3 {
+  font-family: 'Playfair Display';
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  color: #2A2A2A;
+
+  margin-top: 20px;
+}
+
+.container-discription p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: #2A2A2A;
+}
+
+.courtesies-title {
+  font-family: 'Playfair Display';
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 45px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.container-courtesies button {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 185px;
+  height: 41px;
+
+  background: #2A2A2A;
+
+  /* text */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
 }
