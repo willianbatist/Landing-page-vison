@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.nav-mobile {
+  display: none;
+}
+
 .container-menu a {
   color: #FFFFFF;
   text-decoration: none;
