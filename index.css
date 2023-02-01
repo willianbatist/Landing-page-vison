@@ -16,6 +16,7 @@
 
 .container-logo {
   display: flex;
+  cursor: pointer;
   justify-content: space-around;
   align-items: center;
   width: 100vw;
@@ -56,10 +57,25 @@
   line-height: 150%;
 }
 
+.container-menu a {
+  text-shadow: 1px 2px 4px #000000;
+}
+
+.container-menu a:hover {
+  transition: 0.3s;
+  text-shadow: none;
+}
+
 .btn-reservas {
   border: none;
   width: 96px;
   height: 45px;
+}
+
+.btn-reservas:hover {
+  transition: 0.3s;
+  color: #FFFFFF;
+  background-color: #5A493E;
 }
 
 .div-slider {
@@ -115,6 +131,11 @@
   color: #FFFFFF;
 }
 
+.slider .btn1:hover {
+  transition: 0.3s;
+  background-color: #69625a;
+}
+
 .slider .btn2 {
   border: none;
   width: 160px;
@@ -123,6 +144,10 @@
   color: #FFFFFF;
 }
 
+.slider .btn2:hover {
+  transition: 0.3s;
+  background-color: #8a766c;
+}
 
 .suites {
   display: flex;
@@ -142,6 +167,10 @@
   margin-top: -250px;
 }
 
+.description-suite button:hover {
+  transition: 0.3s;
+  background-color: #8a766c;
+}
 
 .container-titulo {
   margin-top: -200px;
@@ -269,6 +298,11 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
 }
 
+.motel-description button:hover {
+  transition: 0.3s;
+  background-color: #69625a;
+}
+
 .container-motel-img {
   max-width: 568px;
   height: 512px;
@@ -346,6 +380,11 @@
   -webkit-box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.75);
   box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.75);
+}
+
+.container-courtesies button:hover {
+  transition: 0.3s;
+  background-color: #555555;
 }
 
 .legends {
@@ -457,6 +496,11 @@
   color: #2A2A2A;
 }
 
+.container-localization-text button:hover {
+  transition: 0.3s;
+  background-color: #8a766c;
+}
+
 .containers-localization button {
   border: none;
   display: flex;
@@ -543,6 +587,10 @@
   color: #FFFFFF;  
 }
 
+.container-contact-text-one p {
+  cursor: pointer;
+}
+
 .container-contact-text-two {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -553,6 +601,10 @@
   letter-spacing: -0.01em;
   
   color: #FFFFFF;  
+}
+
+.container-contact-text-two p {
+  cursor: pointer;
 }
 
 .text-one {
