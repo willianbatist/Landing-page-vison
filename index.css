@@ -477,3 +477,10 @@
   line-height: 17px;
   color: #FFFFFF;
 }
+
+.containers-contact {
+  background: #2A2A2A;
+  width: 100vw;
+  min-height: 290px;
+  color: #FFFFFF;
+}
