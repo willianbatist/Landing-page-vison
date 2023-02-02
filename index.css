@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body { 
+  overflow-x: hidden;
+  scroll-behavior: smooth; 
+}
+
 .nav-mobile {
   display: none;
 }
