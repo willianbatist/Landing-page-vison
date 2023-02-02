@@ -282,6 +282,16 @@
   .container-localization-text {
     width: 100%;
   }
+
+  .container-two-logo-mobile {
+    width: 110px;
+  }
+  .container-btn-mobile {
+    width: 110px;
+  }
+  .container-icon-mobile {
+    width: 110px;
+  }
 }
 
 @media(max-width: 340px) { 
@@ -298,9 +308,8 @@
 }
 
 .nav-mobile {
-  flex-direction: row;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
   width: 100vw;
   
   position: absolute;
