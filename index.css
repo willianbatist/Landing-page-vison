@@ -373,6 +373,27 @@ body {
   justify-content: space-evenly;
 }
 
+.img1-courtesies {
+  background: url("./img/img1.png");
+  height: 224px;
+  width:100%;
+  object-fit: cover;
+}
+
+.img2-courtesies {
+  background: url("./img/img2.png");
+  height: 224px;
+  width:100%;
+  object-fit: cover;
+}
+
+.img3-courtesies {
+  background: url("./img/img3.png");
+  height: 224px;
+  width:100%;
+  object-fit: cover;
+}
+
 .container-localization-img {
   background: url("./img/mapa-vison.png");
   width: 496px;

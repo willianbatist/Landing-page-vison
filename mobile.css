@@ -1,4 +1,30 @@
+@media(max-width: 1600px) {
+  .container-courtesies {
+    min-height: 900px;
+  }
+
+  .containers-discription {
+    width: 80%;
+  }
+}
+
+@media(max-width: 1400px) {
+  .containers-discription {
+    width: 90%;
+  }
+}
+
+@media(max-width: 1280px) {
+  .containers-discription {
+    width: 96%;
+  }
+}
+
 @media(max-width: 1130px) {
+  .container-courtesies {
+    min-height: 1200px;
+  }
+
   .container-motel-description {
     flex-direction: column-reverse;
     min-height: 1050px;
@@ -54,6 +80,15 @@
     min-height: 128px;
     margin-left: 20%;
   }
+
+  .containers-discription {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-courtesies {
+    min-height: 1300px;
+  }
 }
 
 @media(max-width: 600px) {
@@ -90,6 +125,7 @@
   .description-suite {
     margin-left: 6%;
   }
+
 }
 
 @media(max-width: 340px) { 
