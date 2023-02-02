@@ -1,6 +1,8 @@
 const iconList = document.querySelector("#icon");
 const iconListC = document.querySelector("#mobile-nav");
 const links = document.getElementsByClassName("link-mobile");
+const container = document.querySelector("#module");
+const mover = document.querySelector("#module");
 
 
 iconList.addEventListener("click", () => {
@@ -19,5 +21,19 @@ function closeMenu(links) {
     })
   }
 }
-
 closeMenu(links);
+
+
+container.addEventListener("mousemove", function(e) {
+  mover.style.backgroundPositionX = -e.offsetX * 1.8 + "px";
+  mover.style.backgroundPositionY = -e.offsetY + 80 + "px";
+});
+
+container.addEventListener("mouseenter", function() {
+  
+  setTimeout(function() {
+    mover.classList.add("no-more-slidey");
+    container.removeEventListener("mouseenter");
+  }, 250);
+  
+});

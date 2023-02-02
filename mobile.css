@@ -39,6 +39,12 @@
   .motel-description {
     margin-top: -20px;
   }
+  .containers-localization {
+    min-height: 650px;
+  }
+  .container-localization {
+    flex-direction: column;
+  }
 }
 
 @media(max-width: 950px) {
@@ -113,11 +119,44 @@
     margin-left: 5%;
     margin-right: 5%;
   }
+
+  .container-localization {
+    width: 396px;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .container-localization-img {
+    width: 396px;
+  }
+
+  .container-localization-text {
+    width: 100%;
+  }
 }
 
 @media(max-width: 490px) {
   .description-suite {
     margin-left: 13%;
+  }
+  .container-localization {
+    width: 296px;
+    object-fit: cover;
+    object-position: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .container-localization-img {
+    width: 296px; 
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .container-localization-text {
+    width: 100%;
   }
 }
 
@@ -126,6 +165,39 @@
     margin-left: 6%;
   }
 
+  .container-discription {
+    width: 264px;
+  }
+
+  .img1-courtesies {
+    width: 264px;
+  }
+
+  .img2-courtesies {
+    width: 264px;
+  }
+
+  .img2-courtesies {
+    width: 264px;
+  }
+}
+
+
+@media(max-width: 360) {
+  .container-localization {
+    width: 196px;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .container-localization-img {
+    width: 196px;
+  }
+
+  .container-localization-text {
+    width: 100%;
+  }
 }
 
 @media(max-width: 340px) { 

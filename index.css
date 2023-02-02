@@ -396,6 +396,7 @@ body {
 
 .container-localization-img {
   background: url("./img/mapa-vison.png");
+  object-fit: cover;
   width: 496px;
   height: 290px;
 }
