@@ -21,6 +21,50 @@
   }
 }
 
+@media(max-width: 800px) {
+  .mobile-slider {
+    width: 312px;
+    height: 440px;
+    object-fit: cover;
+  }
+
+  .container-mobile-slider {
+    margin-left: 5%;
+    margin-right: 7%;
+  }
+
+  .description-suite {
+    min-height: 128px;
+    margin-left: 20%;
+  }
+}
+
+@media(max-width: 600px) {
+  .description-suite {
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+    height: 195px;
+    margin-top: -80px;
+  }
+
+  .carousel-item {
+    height: 600px;
+  }
+}
+
+@media(max-width: 490px) {
+  .description-suite {
+    margin-left: 13%;
+  }
+}
+
+@media(max-width: 420px) {
+  .description-suite {
+    margin-left: 6%;
+  }
+}
+
 .nav-mobile {
   flex-direction: row;
   align-items: center;
