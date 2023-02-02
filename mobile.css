@@ -68,6 +68,79 @@
   .nav-mobile {
     display: flex;
   }
+  .container-text-contact {
+    display: none;
+  }
+  .container-contact-text-one {
+    display: none;
+  }
+  .container-contact-text-two {
+    display: none;
+  }
+  .container-contact-text-three {
+    display: none;
+  }
+
+  .containers-contact {
+    flex-direction: column;
+    height: 511.3px;
+  }
+
+  .container-contact-btns {
+    width: 296px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .container-contact-btns button {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 53px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;    
+  }
+  
+  hr {
+    display: block;
+    width: 296px;
+    height: 1px;
+    background: #D9D9D9;
+  }
+
+  .contact-btn1 {
+    background: #7A7266;
+    box-shadow: 0px 4px 10px rgba(80, 8, 21, 0.25);    
+  }
+
+  .contact-btn2 {
+    background: #7A7266;
+  }
+
+  .contact-btn3 {
+    background-color: #2A2A2A;
+    border: 1.5px solid #FFFFFF !important;
+  }
+
+  .contact-btn4 {
+    background-color: #2A2A2A;
+    border: 1.5px solid #FFFFFF !important;
+  }
+  .container-contact-btns button:hover {
+    transition: 0.3s;
+    box-shadow: none;
+    background-color: #69625a;
+  }
 }
 
 @media(max-width: 800px) {
@@ -203,6 +276,13 @@
 @media(max-width: 340px) { 
   .motel-description {
     height: 660px;
+  }
+
+  .container-contact-btns {
+    width: 150px;
+  }
+  hr {
+    width: 170px;
   }
 }
 

@@ -722,3 +722,11 @@ footer p {
   
   color: #FFFFFF;
 }
+
+.container-contact-btns {
+  display: none;
+}
+
+hr {
+  display: none;
+}
