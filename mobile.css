@@ -253,6 +253,17 @@
   .img2-courtesies {
     width: 264px;
   }
+
+  .slider h1 {
+    font-size: 53px;
+  }
+
+  .slider p {
+    font-size: 18px;
+  }
+  .slider .btn2 {
+    margin-right: 6px;
+  }
 }
 
 
