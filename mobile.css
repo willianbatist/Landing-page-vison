@@ -17,12 +17,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  width: 100vw;
   
   position: absolute;
   height: 70px;
   left: 0px;
   right: 0px;
-  top: 570px;
+  top: 649px;
   
   background: #2A2A2A;
   box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.12);
@@ -65,10 +66,48 @@
 }
 
 .icon-mobile {
+  cursor: pointer;
   width: 28px;
   height: 14px;
   
   font-size: 30px;
 
   color: #FFFFFF;
+}
+
+
+.container-mobile-nav {
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 0.3s;
+  background-color: #2A2A2A;
+  position: absolute;
+  z-index: 1;
+  height: 650px;
+  width: 100vw;
+}
+
+.link-mobile {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.link-mobile:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.link-mobile {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.link-mobile:hover {
+  transition: 0.3s;
+  color: #5A493E;
 }
