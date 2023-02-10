@@ -41,20 +41,19 @@ body {
   font-family: serif;
 }
 
-.logo img {
-  width: 113.4px;
-  height: 22.48px;
+.logo p {
+  font-size: 33px;
+  margin: 0px;
+  padding: 0px;
+  color: #FFFFFF;
 }
 
-.motel {
-  height: 22.481664657592773px;
-  width: 113.4000015258789px;
-  border-radius: 0px;
+.logo-p-one {
+  margin-bottom: -26px !important;
 }
 
-.vision {
-  width: 112.47px;
-  height: 23.37px;
+.logo-p-two {
+  margin-left: 4px !important;
 }
 
 .container-menu {

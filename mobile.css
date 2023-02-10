@@ -328,14 +328,20 @@
   align-items: center;
 }
 
-.motel-mobile {
-  width: 83px;
-  height: 16.45px;
+.logo-mobile p {
+  font-family: Playfair Display;
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
+  color: #FFFFFF;
 }
 
-.vision-mobile {
-  width: 82.32px;
-  height: 17.1px;
+.logo-p-mobile-one {
+  margin-bottom: -19px !important;
+}
+
+.logo-p-mobile-two {
+  margin-left: 8px !important;
 }
 
 .btn1-mobile {
