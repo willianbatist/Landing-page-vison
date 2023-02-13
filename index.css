@@ -405,6 +405,7 @@ body {
 
 
 .container-discription {
+  cursor: pointer;
   margin-top: 10px;
   position: relative;
   width: 368px;
@@ -416,6 +417,11 @@ body {
   -webkit-box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.75);
   box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.75);
+}
+
+.container-discription:hover {
+  transition: 0.5s;
+  box-shadow: none;
 }
 
 .container-courtesies button:hover {
