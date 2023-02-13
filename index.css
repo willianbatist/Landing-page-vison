@@ -91,7 +91,7 @@ body {
 }
 
 .div-slider {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("./img/slider-d.png");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.50)), url("./img/hotelNew.jpg");
   width: 100vw;
   background-size: cover;
   height: 720px;
