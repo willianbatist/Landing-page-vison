@@ -577,6 +577,16 @@ body {
 .logo-contact {
   display: flex;
   flex-direction: column;
+  font-family: serif;
+  font-size: 40px;
+}
+
+.logo-contact-p-one {
+  margin-bottom: -33px;
+}
+
+.logo-contact-p-two {
+  margin-left: 6px;
 }
 
 
