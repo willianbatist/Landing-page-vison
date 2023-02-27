@@ -207,6 +207,10 @@
   .container-localization-text {
     width: 100%;
   }
+
+  .iframeMap {
+    width: 396px;
+  }
 }
 
 @media(max-width: 490px) {
@@ -230,6 +234,10 @@
 
   .container-localization-text {
     width: 100%;
+  }
+
+  .iframeMap {
+    width: 296px;
   }
 }
 

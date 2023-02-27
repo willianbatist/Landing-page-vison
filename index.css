@@ -741,3 +741,9 @@ footer p {
 hr {
   display: none;
 }
+
+.iframeMap {
+  object-fit: cover;
+  width: 496px;
+  height: 290px;
+}
