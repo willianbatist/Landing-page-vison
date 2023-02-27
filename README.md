@@ -22,7 +22,7 @@ Este repositório contem o **Projeto Landing Page Hotel Vision** que reúne o ap
 
 ## Apresentação do Projeto
 
-O Projeto é uma Landing Page de um Hotel de publicidade, onde é possivel ver os produtos, serviços oferecidos e o contato da empresa.
+O Projeto é uma Landing Page de um Hotel, onde é possivel ver os produtos, serviços oferecidos e o contato da empresa.
 
 
 ---
