@@ -12,7 +12,7 @@ Este repositório contem o **Projeto Landing Page Hotel Vision** que reúne o ap
   - Logica de programação;
   - Clean Code;
 
-#### Tecnologias utilizadas:
+####
 
   - HTML;
   - CSS;
