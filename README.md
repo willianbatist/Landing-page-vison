@@ -7,7 +7,7 @@ Este repositório contem o **Projeto Landing Page Hotel Vision** que reúne o ap
 ### Deploy do Site: [Projeto Landing Page Hotel Vision](https://willian-alves-hotel-vision.netlify.app/)
 ![](./img/hotel-vision.gif)
 
-#### Habilidades que foram exigidas:
+####
 
   - Logica de programação;
   - Clean Code;
